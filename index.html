@@ -1,0 +1,1114 @@
+<!doctype html>
+<html lang="nl">
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="Language" content="NL">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content=" Een leuke game ervaring start bij DuckMC! DuckMC is een java minecraft server die je kan bespelen via het server aderes: play.duckmc.eu in 1.8x t/m 1.16x!">
+
+<meta name="keywords" content="minecraft, server, nederland, nl, eu, europa, europe, nederlandse, nederlands, mc, game, DuckMC, mc server, mini games, minigames, custom-minigames, custom, custom minigames, play.duckmc.eu, duckmc.eu, play.duckmc, duck mc, wesleyiscoolgames, wesley, wesley is cool games, wesleyiscool">
+
+<title>DuckMC - Minecraft server</title>
+<link rel="icon" href="https://static.wikia.nocookie.net/minecraft/images/4/41/ChickenNew.png/revision/latest?cb=20190830231605">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+
+<style>@import url("https://fonts.googleapis.com/css?family=Nunito:400,600,700,800&display=swap");
+body,html{
+font-family:Roboto,Nunito,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+width:100%;
+height:100%
+}
+body{
+background-color:#fff;
+overflow-x:hidden;
+-webkit-text-size-adjust:100%;
+-webkit-overflow-scrolling:touch;
+-webkit-font-smoothing:antialiased;
+color:#555a64
+}
+h1,h2,h3,h4,h5,h6{
+color:#2c3038;
+font-weight:700
+}
+@media (max-width:1200px){
+.h1,h1{
+font-size:calc(1.375rem + 1.5vw)
+}
+}
+a{
+color:#1C5381;
+background-color:transparent
+}
+a,a:hover{
+text-decoration:none
+}
+a:hover{
+color:#00ffa6
+}
+@media (min-width:992px){
+section{
+padding:7.5rem 0
+}
+}
+@media (min-width:768px){
+section{
+padding:6rem 0
+}
+}
+section{
+position:relative;
+padding:3.75rem 0
+}
+p{
+font-weight:400
+}
+@media (max-width:1200px){
+.display-3{
+font-size:calc(1.575rem + 3.9vw)
+}
+}
+@media (max-width:1200px){
+.display-4{
+font-size:calc(1.475rem + 2.7vw)
+}
+}
+.uppercase{
+text-transform:uppercase
+}
+.table{
+color:#555a64;
+font-weight:600
+}
+.btn{
+font-weight:700
+}
+.btn-primary{
+color:#fff;
+background-color:#blue;
+border-color:#white
+}
+.btn-primary:hover,.btn-primary:not(:disabled):not(.disabled).active,.btn-primary:not(:disabled):not(.disabled):active,.show>.btn-primary.dropdown-toggle{
+color:#fff;
+background-color:#41464a;
+border-color:#41464a
+}
+.btn-primary.focus,.btn-primary:focus{
+box-shadow:0 0 0 .2rem rgba(65,70,74,.5)
+}
+.btn-primary.disabled,.btn-primary:disabled{
+color:#fff;
+background-color:#212529;
+border-color:#212529
+}
+.btn-outline-primary{
+color:#212529;
+border-color:#212529
+}
+.btn-link{
+color:#212529;
+text-decoration:none
+}
+.btn-link:hover{
+color:#1C5381
+}
+.btn-link:focus,.btn-link:hover{
+text-decoration:none
+}
+.badge{
+display:inline-block;
+padding:.5rem .75rem;
+font-size:.875rem;
+font-weight:700;
+line-height:1;
+text-align:center;
+white-space:nowrap;
+vertical-align:baseline;
+border-radius:.3125rem;
+transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out
+}
+.badge-primary{
+color:#fff;
+background-color:#212529
+}
+.badge-pill{
+padding-right:.75rem;
+padding-left:.75rem;
+border-radius:10rem
+}
+.page-link{
+color:#212529
+}
+.page-link:hover{
+color:#ffb510
+}
+.page-item.active .page-link{
+color:#fff;
+background-color:#212529;
+border-color:#212529
+}
+.nav-item{
+font-size:20px;
+font-weight:700
+}
+.nav-item,.navbar-dark .navbar-nav .nav-link{
+color:#fff
+}
+.nav-link.active.active-light{
+opacity:.2
+}
+.nav-pills .nav-link.active,.nav-pills .show>.nav-link{
+color:#fff;
+background-color:#212529
+}
+.pill-simple{
+font-weight:600;
+color:#555a64;
+font-size:16px;
+text-align:left;
+background-color:transparent!important
+}
+.active.pill-simple{
+font-weight:600;
+color:#1C5381!important
+}
+.pill-light{
+font-weight:600;
+color:#555a64;
+font-size:16px;
+text-align:left
+}
+.pill-light:hover{
+background-color:#35bfcc!important;
+color:#2c3038
+}
+.active.pill-light{
+background-color:#35bfcc!important;
+color:#fff!important
+}
+.custom-control-input:checked~.custom-control-label:before{
+color:#fff;
+border-color:#212529;
+background-color:#212529
+}
+ul,ul li{
+list-style:outside none none;
+margin:0;
+padding:0
+}
+.font-12{
+font-size:12px
+}
+.font-14{
+font-size:14px
+}
+.font-16{
+font-size:16px
+}
+.font-18{
+font-size:18px
+}
+.font-20{
+font-size:20px
+}
+.font-24{
+font-size:24px
+}
+.font-28{
+font-size:28px
+}
+.font-30{
+font-size:30px
+}
+.font-36{
+font-size:36px
+}
+.font-48{
+font-size:48px
+}
+.font-60{
+font-size:60px
+}
+.font-72{
+font-size:72px
+}
+.strikethrough{
+text-decoration:line-through
+}
+.theme-color{
+color:#35bfcc!important
+}
+.link-white{
+color:#fff
+}
+.link-white:hover{
+color:#212529
+}
+.link-white-2{
+opacity:.5;
+color:#fff
+}
+.link-white-2:hover{
+opacity:1;
+color:#fff
+}
+.link-white-active{
+color:#212529!important
+}
+.link-black{
+color:#3448c9
+}
+.link-black:hover{
+color:#35bfcc
+}
+.link-grey{
+color:rgba(0,0,0,.5)
+}
+.link-grey:hover{
+color:#35bfcc
+}
+.cursor-hand{
+cursor:pointer
+}
+.cursor-disabled{
+cursor:not-allowed
+}
+.overlay{
+height:100%;
+width:100%;
+position:fixed;
+z-index:20;
+left:0;
+top:0;
+overflow-x:hidden;
+background-color:hsla(0,0%,100%,.95);
+display:none
+}
+.sidebar{
+width:64px;
+background:#35bfcc;
+background:-webkit-linear-gradient(90deg,#1C5381 20%,#1C5381 90%);
+background:-o-linear-gradient(90deg,#1C5381 20%,#1C5381 90%);
+background:-moz-linear-gradient(90deg,#1C5381 20%,#1C5381 90%);
+background:linear-gradient(90deg,#1C5381 20%,#1C5381 90%)
+}
+.sidebar,.sub_sidebar{
+position:fixed;
+height:100%;
+padding-top:10px;
+padding-bottom:10px
+}
+.sub_sidebar{
+left:64px;
+width:240px;
+background:#fff;
+box-shadow:0 0 15px 0 rgba(0,0,0,.05)
+}
+.sub_sidebar_header{
+min-height:36px
+}
+@media (min-width:992px){
+.main{
+padding-left:303px;
+padding-right:0
+}
+}
+.form-signin{
+width:100%;
+max-width:330px;
+padding:15px;
+margin:auto
+}
+.mobile-nav-panel{
+background:#1C5381;
+background:-webkit-linear-gradient(-54deg,#1C5381 20%,#1C5381 90%);
+background:-o-linear-gradient(-54deg,#1C5381 20%,#1C5381 90%);
+background:-moz-linear-gradient(-54deg,#1C5381 20%,#1C5381 90%);
+background:linear-gradient(-54deg,#1C5381 20%,#1C5381 90%)
+}
+.rounder{
+border-radius:.5rem
+}
+.text-grey{
+color:#757575
+}
+.table-spaced{
+border-collapse:separate;
+border-spacing:0 15px
+}
+.table-spaced td,.table-spaced th{
+border-top:none;
+vertical-align:middle
+}
+.table-spaced td{
+padding-top:1.2rem;
+padding-bottom:1.2rem
+}
+.table-spaced thead th{
+border-bottom:none
+}
+.table-striped-spaced td,.table-striped-spaced th{
+border-top:none;
+vertical-align:middle;
+padding:1rem
+}
+.table-striped tbody tr:nth-of-type(odd){
+background-color:rgba(0,0,0,.02)
+}
+.table-striped-spaced thead th{
+border-bottom:none;
+font-weight:700;
+color:#676767;
+letter-spacing:1px
+}
+.custom-control-label{
+vertical-align:top
+}
+.fast-spin{
+-webkit-animation:fa-spin 1s linear infinite;
+animation:fa-spin 1s linear infinite
+}
+.file-listing-selected{
+background-color:rgba(255,193,7,.1)!important
+}
+.hide{
+display:none
+}
+.gradient-1{
+background:#1C5381;
+background:-webkit-linear-gradient(-54deg,#1C5381 20%,#1C5381 90%);
+background:-o-linear-gradient(-54deg,#1C5381 20%,#1C5381 90%);
+background:-moz-linear-gradient(-54deg,#1C5381 20%,#1C5381 90%);
+background:linear-gradient(-54deg,#1C5381 20%,#2dba52 90%)
+}
+.single-features:hover .arrow-line .circle-dot:after,.single-features:hover>i{
+background:#1C5381 none repeat scroll 0 0
+}
+.arrow-line .circle-dot{
+border-top:2px solid #1C5381;
+border-left:2px solid #1C5381
+}
+.arrow-line .circle-dot:after{
+background:#1C5381 none repeat scroll 0 0;
+border:3px solid #f4d47e
+}
+.single-features>i{
+color:#1C5381
+}
+.single-features:hover .arrow-line .circle-dot{
+border-color:##2dba52
+}
+.single-features:hover>i{
+box-shadow:0 0 20px ##2dba52;
+color:#fff
+}
+.single-features:hover .arrow-line .circle-dot:after{
+border-color:##2dba52
+}
+.logo{
+width:165px
+}
+.content-height-small{
+height:150px!important
+}
+@media (max-width:767px){
+.table-header-small{
+height:150px!important
+}
+}
+@media (max-width:1200px){
+.loginbutton{
+display:none
+}
+.navbar-toggle{
+position:absolute;
+right:0;
+top:0
+}
+}
+.font-weight-400{
+font-weight:400
+}
+.font-weight-600{
+font-weight:600
+}
+.font-weight-700{
+font-weight:700
+}
+.font-weight-800{
+font-weight:800
+}
+.header-top{
+left:0;
+top:10px;
+width:100%;
+z-index:3
+}
+.h-55{
+height:55%!important
+}
+.h-60{
+height:60%!important
+}
+.h-70{
+height:70%!important
+}
+.opacity-60{
+opacity:.6
+}
+.opacity-80{
+opacity:.8
+}
+.fix{
+overflow:hidden
+}
+.lowercase{
+text-transform:lowercase
+}
+.capitalize{
+text-transform:capitalize
+}
+.in-block{
+display:inline-block
+}
+.absolute{
+position:absolute
+}
+.static{
+position:static
+}
+.relative{
+position:relative
+}
+.header-top.is-sticky{
+-webkit-animation:fadeInDown .3s ease-in-out 0s 1 normal none running;
+animation:fadeInDown .3s ease-in-out 0s 1 normal none running;
+left:0;
+position:fixed;
+top:0;
+width:100%;
+z-index:10;
+box-shadow:0 1px 4px rgba(2,3,3,.15)
+}
+.header-top.is-sticky .logo>a{
+width:73px
+}
+@keyframes pound{
+0%{
+transform:scale(.2)
+}
+
+</style>
+
+
+<script src="https://kit.fontawesome.com/3333fb2930.js" crossorigin="anonymous"></script>
+
+<body style="background-color:#245454;">
+<div class="overlay mobile-nav">
+<div class="row p-5 d-flex align-items-center justify-content-center h-100">
+<div class="col-12 text-center">
+<ul class="navbar-nav ml-auto">
+<li class="nav-item mr-3 1">
+<a class="nav-link link-black" href="https://DuckMC.github.io/home/"><h1 style=font-size:75px>Home</h1></a>
+</li>
+<li class="nav-item mr-3 ">
+<a class="nav-link link-black" href="https://DuckMC.github.io/minigames/"><h1 style=font-size:75px>Games</h1></a>
+</li>
+<li class="nav-item mr-3 ">
+<a class="nav-link link-black" href="https://DuckMC.github.io/cps/"><h1 style=font-size:75px>CPS-Test</h1></a>
+</li>
+<li class="nav-item mr-3 ">
+<a class="nav-link link-black" href="https://DuckMC.github.io/faq/"><h1 style=font-size:75px>FAQ</h1></a>
+</li>
+<li class="nav-item mr-3 1">
+<a class="nav-link link-black" href="https://DuckMC.github.io/contact/"><h1 style=font-size:75px>Contact</h1></a>
+</li>
+</ul>
+<h1>Op mobiele aparaten kunnen formaten afwijken. <br>Verander naar een pc of zoom uw beeldscherm in. </h1>
+</div>
+<div class="col-12 text-center">
+<a class="link-black toggle-nav" href="#"><i class="fas fa-times fa-2x"></i></a>
+</div>
+</div>
+</div>
+
+<!-- Loading Bar End -->
+<div id="home"></div>
+<!-- Header Section Start -->
+<div class="gradient-1 d-flex align-items-center relative" style="height: 82px;">
+<div class="circle-shape">
+<div class="dot c1 c100"></div>
+<div class="dot c2 c53"></div>
+<div class="dot c3 c355"></div>
+<div class="dot c4 c172"></div>
+<div class="dot c5 c206"></div>
+<div class="dot c6 c84"></div>
+<div class="dot c7 c140"></div>
+<div class="dot c8 c100"></div>
+<div class="dot c9 c53"></div>
+<div class="dot c10 c100"></div>
+<div class="dot c11 c100"></div>
+<div class="dot c12 c44"></div>
+<div class="dot c13 c44"></div>
+<div class="dot c14 c34"></div>
+<div class="dot c15 c44"></div>
+<div class="dot c16 c393 d-none d-lg-block"></div>
+</div>
+<div id="active-sticky" class="header-top absolute">
+<div class="container">
+<nav class="navbar navbar-expand-lg navbar-dark">
+
+
+
+<button class="navbar-toggler toggle-nav" type="button" id="toggle-nav">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav ml-auto mr-auto">
+                    <li class="nav-item mr-3">
+                        <a class="nav-link 1" href="https://duckmc.github.io/home/">Home</a>
+                    </li>
+                    <li class="nav-item mr-3">
+                        <a class="nav-link 1" href="https://duckmc.github.io/minigames/">Games</a>
+                    </li>
+                    <li class="nav-item mr-3">
+                        <a class="nav-link 1" href="https://duckmc.github.io/vote/">Vote</a>
+                    </li>
+                    <li class="nav-item mr-3">
+                        <a class="nav-link 1" href="https://duckmc.github.io/blog/">Blog</a>
+                    </li>
+                    <li class="nav-item mr-3">
+                        <a class="nav-link 1" href="https://duckmc.github.io/cps/">CPS-Test</a>
+                    </li>
+                    <li class="nav-item mr-3">
+                        <a class="nav-link 1" href="https://duckmc.github.io/members/">Members</a>
+                    </li>
+                    <li class="nav-item mr-3">
+                        <a class="nav-link 1" href="https://duckmc.github.io/support/">Support</a>
+                    </li>
+                    <li class="nav-item mr-3">
+                        <a class="nav-link 1" href="https://duckmc.github.io/store/">Store</a>
+                    </li>
+                </ul>
+</div>
+</nav>
+</div> </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-12 col-lg-5">
+                    <h1 class="font-48 font-weight-800 mb-4" style="color:#ffff;">The DuckMC Store</h1>
+                    <p class="lead mb-4" style="color:#ffff;">
+                        Welcome to DuckMC's store. Here you can purchase in-game ranks, in-game gadgets, and merch. Why should you buy anything? Running a server has more costs than you may initially imagine, and this is the only outlet for us to cover these costs. Any help is greatly appreciated!
+                    </p>
+                </div>
+                <div class="col-12 col-lg-5">
+                    <img src="https://i.imgur.com/JMlAfXi.png" style="width: 85%;" alt="Villagers"/>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-12 col-lg-4 mb-4 mb-lg-0">
+                    <div class="card card-body border-0 bg-light rounder">
+                        <div class="d-flex align-items-center">
+                            <div class="mr-3">
+                                <i class="fad fa-user-plus theme-color fa-fw font-30"></i>
+                            </div>
+                            <div>
+                                <h5 class="mb-0">In-Game Ranks</h5>
+                                <p class="lead font-16 mb-0">
+                                    [Not yet available]<br><br>
+                                </p>
+                            </div>
+                        </div>                    <a href="#packages" class="btn btn-lg btn-primary roundest">View Packages</a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 mb-4 mb-lg-0">
+                    <div class="card card-body border-0 bg-light rounder">
+                        <div class="d-flex align-items-center">
+                            <div class="mr-3">
+                                <i class="fad fa-puzzle-piece theme-color fa-fw font-30"></i>
+                            </div>
+                            <div>
+                                <h5 class="mb-0">Cosmetics</h5>
+                                <p class="lead font-16 mb-0">
+                                    [Not yet available]<br><br>
+                                </p>
+                            </div>
+                        </div>                    <a href="#packages" class="btn btn-lg btn-primary roundest">View Packages</a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 mb-4 mb-lg-0">
+                    <div class="card card-body border-0 bg-light rounder">
+                        <div class="d-flex align-items-center">
+                            <div class="mr-3">
+                                <i class="fad fa-tshirt theme-color fa-fw font-30"></i>
+                            </div>
+                            <div>
+                                <h5 class="mb-0">Merch</h5>
+                                <p class="lead font-16 mb-0">
+                                    [Not yet available]<br><br>
+                                </p>
+                            </div>
+                        </div>                    <a href="#packages" class="btn btn-lg btn-primary roundest">View Packages</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+<!-- All JS Here -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<!-- jQuery Latest Version -->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"></script>
+<!-- Plugins JS -->
+<script>
+// Avoid `console` errors in browsers that lack a console.
+(function() {
+var method;
+var noop = function () {};
+var methods = [
+'assert', 'clear', 'count', 'debug', 'dir', 'dirxml', 'error',
+'exception', 'group', 'groupCollapsed', 'groupEnd', 'info', 'log',
+'markTimeline', 'profile', 'profileEnd', 'table', 'time', 'timeEnd',
+'timeline', 'timelineEnd', 'timeStamp', 'trace', 'warn'
+];
+var length = methods.length;
+var console = (window.console = window.console || {});
+
+while (length--) {
+method = methods[length];
+
+// Only stub undefined methods.
+if (!console[method]) {
+console[method] = noop;
+}
+}
+}());
+
+/*
+Ripple - jQuery
+---------------------------*/
+$(".ripple-btn").click(function(a){var i=$(this);0==i.find(".material-ink").length&&i.prepend("<div class='material-ink'></div>");var t=i.find(".material-ink");if(t.removeClass("animate"),!t.height()&&!t.width()){var e=Math.max(i.outerWidth(),i.outerHeight());t.css({height:e,width:e})}var r=a.pageX-i.offset().left-t.width()/2,h=a.pageY-i.offset().top-t.height()/2,l=i.data("ripple-color");t.css({top:h+"px",left:r+"px",background:l}).addClass("animate")});
+</script>
+<!-- main JS -->
+<script>
+(function ($) {
+"use strict";
+
+/*
+STICKY
+================================== */
+var WinD = $(window);
+WinD.on('scroll',function() {
+var AcSticky = $('#active-sticky');
+var scroll = $(window).scrollTop();
+var AESticky = AcSticky;
+if (scroll < 245) {
+AESticky.removeClass("is-sticky , gradient-1");
+}
+else{
+AESticky.addClass("is-sticky , gradient-1");
+}
+return false;
+});
+
+})(jQuery);
+</script>
+
+
+<!-- Styles -->
+<script>
+const toast = swal.mixin({
+toast: true,
+position: 'top',
+showConfirmButton: false,
+});
+</script>
+
+<script>
+Lang.setLocale('nl');
+</script>
+
+
+<script>
+$('.toggle-nav').click(function() {
+$('.mobile-nav').toggle();
+});
+</script>
+
+<script>
+function myFunction() {
+alert("Het ip is succesvol gekopierd!");
+}
+</script>
+
+<script>
+function AdvancedCopy(){
+//the text that is to be copied to the clipboard
+var theText = 'play.duckmc.eu';
+
+//create our hidden div element
+var hiddenCopy = document.createElement('div');
+//set the innerHTML of the div
+hiddenCopy.innerHTML = theText;
+//set the position to be absolute and off the screen
+hiddenCopy.style.position = 'absolute';
+hiddenCopy.style.left = '-9999px';
+
+//check and see if the user had a text selection range
+var currentRange;
+if(document.getSelection().rangeCount > 0)
+{
+//the user has a text selection range, store it
+currentRange = document.getSelection().getRangeAt(0);
+//remove the current selection
+window.getSelection().removeRange(currentRange);
+}
+else
+{
+//they didn't have anything selected
+currentRange = false;
+}
+
+//append the div to the body
+document.body.appendChild(hiddenCopy);
+//create a selection range
+var CopyRange = document.createRange();
+//set the copy range to be the hidden div
+CopyRange.selectNode(hiddenCopy);
+//add the copy range
+window.getSelection().addRange(CopyRange);
+
+//since not all browsers support this, use a try block
+try
+{
+//copy the text
+document.execCommand('copy');
+}
+catch(err)
+{
+window.alert("Your Browser Doesn't support this! Error : " + err);
+}
+//remove the selection range (Chrome throws a warning if we don't.)
+window.getSelection().removeRange(CopyRange);
+//remove the hidden div
+document.body.removeChild(hiddenCopy);
+
+//return the old selection range
+if(currentRange)
+{
+window.getSelection().addRange(currentRange);
+}
+}
+</script>
+<br><br><br>
+
+
+<div class="fixed-bottom d-flex justify-content-center">
+<div class="alert bg-success pb-3 pt-3 text-center" role="alert" style="max-width: 600px;">
+
+<div class="font-weight-800"><span class="font-1 text-white mb-0">JOIN US ON PLAY.DUCKMC.EU</span></div>
+<div class="font-14 text-white font-weight-800 opacity-80">Copyright © 2016 - 2021 DuckMC.</div>
+</div>
+</div>
+
+
+
+
+<!--#5dc94f, #093c94-->
+
+
+
+
+
+
+
+
+<div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-4 col-xs-12">
+                        <div class="single_footer">
+                            <h4>IMPORTANT NOTICE</h4>
+                            <h6 style="color:#ffff;">The DuckMC server is in no way affiliated with Mojang, AB. Nor should it be considered a company endorsed by Mojang, AB.</h6>
+                        </div>
+                    </div><!--- END COL -->
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="single_footer single_footer_address">
+                            <h4>EXTRA LINKS</h4>
+                            <ul>
+                                <li><a href="https://namemc.com/server/play.duckmc.eu" target="_blank">https://namemc.com/server/play.duckmc.eu</a></li>
+                                <li><a href="https://instagram.com/duckmc.eu" target="_blank">https://instagram.com/duckmc.eu</a></li>
+                            </ul>
+                        </div>
+                    </div><!--- END COL -->
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="single_footer single_footer_address">
+                            <h4>OUR SOCIALS</h4>
+                        <div class="social_profile">
+                            <ul>
+                                <li><a href="https://instagram.com/duckmc.eu" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="https://instagram.com/duckpraat" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="https://www.youtube.com/channel/UC-Bp5cB_PuQpTHLvhCZhqLA" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="https://www.youtube.com/channel/UC91Fv15z9zTlEMlmTo7gpfw" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                            <div class="signup_form">
+                            </div>
+                        </div>
+                    </div><!--- END COL -->
+                </div><!--- END ROW -->
+                <div class="row">
+                    <div class="col-lg-12 col-sm-12 col-xs-12">
+                        <p class="copyright">Copyright © 2016 - 2021 DuckMC.</p>
+                    </div><!--- END COL -->
+                </div><!--- END ROW -->
+            </div><!--- END CONTAINER -->
+        </div>
+  
+<style>
+  h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {}
+        a,
+        a:hover,
+        a:focus,
+        a:active {
+            text-decoration: none;
+            outline: none;
+        }
+        
+        a,
+        a:active,
+        a:focus {
+            color: #333;
+            text-decoration: none;
+            transition-timing-function: ease-in-out;
+            -ms-transition-timing-function: ease-in-out;
+            -moz-transition-timing-function: ease-in-out;
+            -webkit-transition-timing-function: ease-in-out;
+            -o-transition-timing-function: ease-in-out;
+            transition-duration: .2s;
+            -ms-transition-duration: .2s;
+            -moz-transition-duration: .2s;
+            -webkit-transition-duration: .2s;
+            -o-transition-duration: .2s;
+        }
+        
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        img {
+    max-width: 100%;
+    height: auto;
+}
+        section {
+            padding: 60px 0;
+           /* min-height: 100vh;*/
+        }
+.footer {
+    background: linear-gradient(105deg,#439139, #072c6e);
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+/*END FOOTER SOCIAL DESIGN*/
+.single_footer{}
+@media only screen and (max-width:768px) {
+.single_footer{margin-bottom:30px;}
+}
+.single_footer h4 {
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.single_footer h4::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 40px;
+    background: #fff;
+    margin-top: 20px;
+}
+.single_footer p{color:#fff;}
+.single_footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.single_footer ul li{}
+.single_footer ul li a {
+    color: #fff;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    line-height: 36px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.single_footer ul li a:hover { color: #76db69; }
+
+.single_footer_address{}
+.single_footer_address ul{}
+.single_footer_address ul li{color:#fff;}
+.single_footer_address ul li span {
+    font-weight: 400;
+    color: #fff;
+    line-height: 28px;
+}
+.contact_social ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+/*START NEWSLETTER CSS*/
+.subscribe {
+    display: block;
+    position: relative;
+    margin-top: 15px;
+    width: 100%;
+}
+.subscribe__input {
+background-color: #fff;
+border: medium none;
+border-radius: 5px;
+color: #333;
+display: block;
+font-size: 15px;
+font-weight: 500;
+height: 60px;
+letter-spacing: 0.4px;
+margin: 0;
+padding: 0 150px 0 20px;
+text-align: center;
+text-transform: capitalize;
+width: 100%;
+}
+@media only screen and (max-width:768px) {
+.subscribe__input{padding: 0 50px 0 20px;}
+}
+
+.subscribe__btn {
+background-color: transparent;
+border-radius: 0 25px 25px 0;
+color: #01c7e9;
+cursor: pointer;
+display: block;
+font-size: 20px;
+height: 60px;
+position: absolute;
+right: 0;
+top: 0;
+width: 60px;
+}
+.subscribe__btn i{transition: all 0.3s ease 0s;}
+@media only screen and (max-width:768px) {
+.subscribe__btn{right:0px;}
+}
+
+.subscribe__btn:hover i{
+    color:#76db69;
+}
+button {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+/*END NEWSLETTER CSS*/
+
+/*START SOCIAL PROFILE CSS*/
+.social_profile {margin-top:40px;}
+.social_profile ul{
+list-style: outside none none;
+margin: 0;
+padding: 0;
+}
+.social_profile ul li{float:left;}
+.social_profile ul li a {
+    text-align: center;
+    border: 0px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    margin: 0px 5px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    border: 1px solid rgba(255,255,255,0.2);
+}
+@media only screen and (max-width:768px) {
+.social_profile ul li a{margin-right:10px;margin-bottom:10px;}
+}
+@media only screen and (max-width:480px) {
+.social_profile ul li a{
+    width:40px;
+    height:40px;
+    line-height:40px;
+}
+}
+.social_profile ul li a:hover{
+background:#76db69;
+border: 1px solid #76db69;
+color:#fff;
+border:0px;
+}
+/*END SOCIAL PROFILE CSS*/
+.copyright {
+    margin-top: 70px;
+    padding-top: 40px;
+    color:#fff;
+    font-size: 15px;
+    border-top: 1px solid rgba(255,255,255,0.4);
+    text-align: center;
+}
+.copyright a{color:#01c7e9;transition: all 0.2s ease 0s;}
+.copyright a:hover{color:#76db69;}
+</style>
